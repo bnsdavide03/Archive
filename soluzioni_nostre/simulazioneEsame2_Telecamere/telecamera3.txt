@@ -1,0 +1,1 @@
+A,pippo,10,ACCENDI,1234

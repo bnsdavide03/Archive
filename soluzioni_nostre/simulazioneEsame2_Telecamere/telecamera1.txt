@@ -1,0 +1,1 @@
+A,pappagallo,2,ACCENDI,1234
