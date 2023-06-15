@@ -54,22 +54,8 @@ public abstract class Telecamera implements Comparable<Telecamera>{
 	public String toString() {
 		return "Telecamera [ID=" + ID + ", descrizione=" + descrizione + ", position=" + position + "]";
 	}
-
-	
-	public void setStato(StatoTelecamera stato) throws StatoIncorrectException {
-		
-		
-		
-	}
 	
 	public int compareTo(Telecamera o) {
-		
-		if (this.getPosition() > o.getPosition()) {
-			return 1;
-		} else {
-			return 0;
-		}
+		return Double.compare (posizione, o.posizione);
 	}
-	
-	
 }
