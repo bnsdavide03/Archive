@@ -1,1 +1,0 @@
-A,pippo,3,ACCENDI,1234
