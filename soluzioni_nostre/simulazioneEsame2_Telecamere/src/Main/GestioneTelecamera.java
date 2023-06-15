@@ -83,7 +83,6 @@ public class GestioneTelecamera {
 
 	public void ordinamentoTelecamera() {
 		Collections.sort(telecamere);
-		System.out.println(telecamere);
 	}
 
 
