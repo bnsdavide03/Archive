@@ -13,7 +13,8 @@ public class Main {
 		sistema1.addTelecamera(sistema1.letturaFile("telecamera3.txt"));
 		sistema1.addTelecamera(sistema1.letturaFile("telecamera4.txt"));
 		sistema1.addTelecamera(sistema1.letturaFile("telecamera5.txt"));
-		
+
+		sistema.ordinamentoTelecamere();
 		sistema1.stampaTelecamere();
 	}	
 }
